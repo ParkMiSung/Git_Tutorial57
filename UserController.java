@@ -33,4 +33,12 @@ public class UserController {
 		
 		return "user/delete";
 	}
+
+	//회원삭제 페이지로 이동 - master branch에서 작업
+	@RequestMapping("/user/selete.do")
+	public String selete(){
+		logger.info("경로 : selete");
+		
+		return "user/selete";
+	}
 }
