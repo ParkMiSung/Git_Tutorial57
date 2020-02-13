@@ -33,4 +33,12 @@ public class UserController {
 		
 		return "user/delete";
 	}
+	
+	//회원조회 페이지로 이동 - develop 브랜치에서 작업
+	@RequestMapping("/user/selete.do")
+	public String selete(){
+		logger.info("경로 : selete");
+		
+		return "user/selete";
+	}
 }
